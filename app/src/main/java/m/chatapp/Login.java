@@ -58,7 +58,7 @@ public class Login extends AppCompatActivity {
                     password.setError("can't be blank");
                 }
                 else{
-                    String url = "https://chatapp-ef926.firebaseio.com/";
+                    String url = "https://chatapp-ef926.firebaseio.com/users.json";
                     final ProgressDialog pd = new ProgressDialog(Login.this);
                     pd.setMessage("Loading...");
                     pd.show();
@@ -79,6 +79,8 @@ public class Login extends AppCompatActivity {
                                     else if(obj.getJSONObject(user).getString("password").equals(pass)){
                                         UserDetails.username = user;
                                         UserDetails.password = pass;
+                                       // Toast.makeText(Login.this, "user found", Toast.LENGTH_LONG).show();
+
                                         startActivity(new Intent(Login.this, Users.class));
                                     }
                                     else {
