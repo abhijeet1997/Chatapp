@@ -11,5 +11,7 @@ can do one to one chat with other users.
 ### Tools :
 Used Firebase for authentication and database.
 
+### The database structure :
+
 ![Alt text](/ss.png?raw=true "Real-time DB")
 
