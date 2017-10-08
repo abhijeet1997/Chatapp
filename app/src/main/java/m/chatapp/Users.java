@@ -2,8 +2,13 @@ package m.chatapp;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -38,6 +43,8 @@ public class Users extends AppCompatActivity {
 
         usersList = (ListView)findViewById(R.id.usersList);
         noUsersText = (TextView)findViewById(R.id.noUsersText);
+
+        setActionBar("Chats");
 
         pd = new ProgressDialog(Users.this);
         pd.setMessage("Loading...");
@@ -103,4 +110,54 @@ public class Users extends AppCompatActivity {
 
         pd.dismiss();
     }
+
+
+    public void setActionBar(String heading) {
+        // TODO Auto-generated method stub
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle(heading);
+        actionBar.setHomeButtonEnabled(true);
+        actionBar.show();
+
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            // action with ID action_refresh was selected
+
+            // action with ID action_settings was selected
+            case R.id.action_logout:
+                logout();
+
+                break;
+            default:
+                break;
+        }
+
+        return true;
+    }
+
+    private void logout(){
+
+        SharedPreferences prefs = getSharedPreferences("NEW", MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.remove("username");
+        editor.remove("password");
+        editor.apply();
+
+
+        Intent i = new Intent(getApplicationContext() , Login.class);
+        startActivity(i);
+
+    }
+
 }

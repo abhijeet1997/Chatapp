@@ -1,8 +1,15 @@
 package m.chatapp;
 
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.drawable.ColorDrawable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -10,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.firebase.client.ChildEventListener;
 import com.firebase.client.DataSnapshot;
@@ -45,6 +53,8 @@ public class Chat extends AppCompatActivity {
         reference1 = new Firebase("https://chatapp-ef926.firebaseio.com/messages/" + UserDetails.username + "_" + UserDetails.chatWith);
         reference2 = new Firebase("https://chatapp-ef926.firebaseio.com/messages/" + UserDetails.chatWith + "_" + UserDetails.username);
 
+        setActionBar(UserDetails.chatWith);
+
         sendButton.setOnClickListener(new android.view.View.OnClickListener() {
             @Override
             public void onClick(android.view.View v) {
@@ -72,10 +82,10 @@ public class Chat extends AppCompatActivity {
                 String userName = map.get("user").toString();
 
                 if(userName.equals(UserDetails.username)){
-                    addMessageBox("You:-\n" + message, 1);
+                    addMessageBox( message, 1);
                 }
                 else{
-                    addMessageBox(UserDetails.chatWith + ":-\n" + message, 2);
+                    addMessageBox( message, 2);
                 }
             }
 
@@ -102,14 +112,21 @@ public class Chat extends AppCompatActivity {
     }
 
 
+
+
+
+
+
+
     public void addMessageBox(String message, int type){
         TextView textView = new TextView(Chat.this);
         textView.setText(message);
+        textView.setTextSize(19);
         LinearLayout ln = new LinearLayout(Chat.this);
         LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         ln.setLayoutParams(lp);
         lp.setMargins(10, 10, 10, 10);
-        lp.weight = 5;
+      //  lp.weight = 10;
 
         textView.setLayoutParams(lp);
 
@@ -133,5 +150,16 @@ public class Chat extends AppCompatActivity {
 
         layout.addView(textView);
         scrollView.fullScroll(View.FOCUS_DOWN);
+    }
+
+
+
+    public void setActionBar(String heading) {
+        // TODO Auto-generated method stub
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle(heading);
+        actionBar.show();
+
     }
 }
