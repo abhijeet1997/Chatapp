@@ -2,6 +2,7 @@ package m.chatapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -19,6 +20,8 @@ import com.firebase.client.FirebaseError;
 import java.util.HashMap;
 import java.util.Map;
 
+import static android.R.attr.gravity;
+
 public class Chat extends AppCompatActivity {
 
     LinearLayout layout;
@@ -31,6 +34,7 @@ public class Chat extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
+
 
         layout = (LinearLayout)findViewById(R.id.layout1);
         sendButton = (ImageView)findViewById(R.id.sendButton);
@@ -46,6 +50,7 @@ public class Chat extends AppCompatActivity {
             public void onClick(android.view.View v) {
 
                 String messageText = messageArea.getText().toString();
+                messageArea.setText("");
 
                 if(!messageText.equals("")){
                     Map<String, String> map = new HashMap<String, String>();
@@ -100,15 +105,30 @@ public class Chat extends AppCompatActivity {
     public void addMessageBox(String message, int type){
         TextView textView = new TextView(Chat.this);
         textView.setText(message);
-        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-        lp.setMargins(0, 0, 0, 10);
+        LinearLayout ln = new LinearLayout(Chat.this);
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        ln.setLayoutParams(lp);
+        lp.setMargins(10, 10, 10, 10);
+        lp.weight = 5;
+
         textView.setLayoutParams(lp);
 
         if(type == 1) {
-            textView.setBackgroundResource(R.drawable.rounded_corner1);
+            textView.setBackgroundResource(R.drawable.rounded_corner3);
+           // lp.setMarginStart(50);
+            lp.gravity = Gravity.RIGHT;
+
+
+
+
+            textView.setTextColor(getResources().getColorStateList(android.R.color.white));
+
+
         }
         else{
             textView.setBackgroundResource(R.drawable.rounded_corner2);
+            textView.setTextColor(getResources().getColorStateList(android.R.color.black));
+
         }
 
         layout.addView(textView);

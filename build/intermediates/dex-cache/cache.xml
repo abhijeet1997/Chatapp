@@ -3,39 +3,57 @@
 
     <item
         is-multidex="true"
-        jar="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/kjaganmohan/.android/build-cache/5ff83c82b501b8e6a858a81e9aa3279ff4cffd89/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_35b91471ca4e7f9d18168802096f3e4d280b4aa9/classes.dex" />
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e2b2d886aa865a59703321d362b6fad50bac2966/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/kjaganmohan/.android/build-cache/7894e7e07b599027442ecb486b12a80caa2fbc83/output/jars/classes.jar"
+        jar="/Users/kjaganmohan/.android/build-cache/269d2e76ce3e4250ea7e4f071c65e0e8c39e1964/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
-        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_38939d471a94c033c7b7704f24d2c4ad789b4e10/classes.dex" />
+        sha1="614b2ffd04818e865e1c02cc149c6b92e518e862">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1b8144d1d4e43974fe5c47c516c083dcdeac9625/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/kjaganmohan/.android/build-cache/c084c4761bf54608e6aa38698dd157fcc52252b0/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="5e20546dea12b2af0f1b9be84274295f1c10fd21">
-        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_18d18c469453220b757417fb8db4d3199f465201/classes.dex" />
+        sha1="d39f676be8400123523882d189a1d84040d34339">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e22380dc86075c9555e111a19028a7ea58e315ab/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/kjaganmohan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jar="/Users/kjaganmohan/.android/build-cache/f97b35f57236efd2e5cbc45407c9a6f0a0c34557/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
-        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_0a92f77733b4731610b4ed6c56abb1355c975b0e/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e7b6c0e80881c4729011797c7b20b41310320710/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kjaganmohan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_79a26fa6e59655d928a966c6e23c220733159d54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kjaganmohan/.android/build-cache/e54919b96a5e90702a93919ef73ff9d448a08981/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_08e10dc1ecf5e859152c636c3caf3185b3b73779/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,6 +75,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/kjaganmohan/.android/build-cache/0e564d3c2a6f533469df49312c6bafab41e9ee0c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_41cd5a790931cd1127e119ca9ab26cee64aea80f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/kjaganmohan/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
         jumboMode="true"
         optimize="true"
@@ -66,48 +93,57 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/kjaganmohan/.android/build-cache/9a2da7dacde17313db676be07683ec775c95ccde/output/jars/classes.jar"
+        jar="/Users/kjaganmohan/.android/build-cache/3a45da9cf05e1d5f018c1c4d72a935b7dbbd9f51/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
-        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6bef0552d857586b966ac3dd8048edc4a6698414/classes.dex" />
+        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a3aaf5c15191e5e6c118c3a509af8d143bc5b400/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/kjaganmohan/.android/build-cache/0b6b0f4e48590ec5ff8a7aaa5d9f1fd60fde1b8d/output/jars/classes.jar"
+        jar="/Users/kjaganmohan/.android/build-cache/364ae2da7a524c1c549dd727776d8a93c4b68857/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
-        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_26f35bd26615fe891b9a3b76ed40ab15d33531df/classes.dex" />
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5249a6ae5367965d8f495598fc8e95c5dce87e87/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/kjaganmohan/.android/build-cache/4b8bed77ff389eb28d24bad617df1ffcbe84ea81/output/jars/classes.jar"
+        jar="/Users/kjaganmohan/.android/build-cache/441d230e8e8e02f07ba7aaaecabbf90cc50b18a8/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
-        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0638c90502fa6189920ff07fa1c36939d6a62905/classes.dex" />
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d14c80958487fdb7f76f0757b53a8024b23a590c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/kjaganmohan/.android/build-cache/85120b9e245aa662f8a4ed72681aa2818c9f9786/output/jars/classes.jar"
+        jar="/Users/kjaganmohan/.android/build-cache/21817946ca2a1c9286aea82e8e70c43fe9f9348e/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
-        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_558b12367abd2a6656fa33fd04bb21514770607d/classes.dex" />
+        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_245003e2afb524cf38359d5eb377c583687eba36/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/kjaganmohan/.android/build-cache/6ce85e1a22b215e60b65e9b5932aa69c7ba70142/output/jars/classes.jar"
+        jar="/Users/kjaganmohan/.android/build-cache/02bcef14453968efb584de642b307e91fcb02bb3/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
-        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_88574a39358bdfe36702d509ce6f7b00f9692d42/classes.dex" />
+        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_faf11c0698caedad9999665d640abda93a27d3be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kjaganmohan/.android/build-cache/a0aa59e7ffc8c64d91c921072364b8527e5b62b9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8320c260b857b53dc7c35a4066b416c443dae5e5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,12 +156,66 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/kjaganmohan/.android/build-cache/0d5beba33e5c1e6392622d66be1625e569db875c/output/jars/classes.jar"
+        jar="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
-        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_68c3d9b987be3411057907a032666e3ba0ea31ba/classes.dex" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_35b91471ca4e7f9d18168802096f3e4d280b4aa9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kjaganmohan/.android/build-cache/d6efb577b2ad2c36dc14e9a7bf1918733eee9031/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8a0891db48de0ef153d21430d2a264f2d0dda15d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kjaganmohan/.android/build-cache/8c56d356a80f2c28f3416879f57a7699caa33b3c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_39190786ac1738795eba993ff5b8560db9cbe5ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0df315b6b462ccd2932944abdc67268d423f8f1">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_18d18c469453220b757417fb8db4d3199f465201/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kjaganmohan/.android/build-cache/2776897681b5dadd7b40e76cfb6bca67971a9493/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="74d1712880eb2b4ab37ddf3c6a3232c883756726">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7c18321084241f25fae7055a9d8f132e3864fccb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kjaganmohan/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_0a92f77733b4731610b4ed6c56abb1355c975b0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kjaganmohan/.android/build-cache/7169eae46b43041858390a0d77c7438f9e0209a0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a93aa431de60b775c91158433f3c687f1d32cb9c">
+        <dex dex="/Users/kjaganmohan/AndroidStudioProjects/ChatApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a5c80e5916a82f2edd670346e14de665123de3aa/classes.dex" />
     </item>
     <item
         is-multidex="true"

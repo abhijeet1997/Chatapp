@@ -2,26 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="#fff"
     android:gravity="bottom"
     android:orientation="horizontal">
 
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textColorHint="#CFD8DC"
-        android:textColor="#CFD8DC"
-        android:hint="Write a message..."
         android:id="@+id/messageArea"
-        android:maxHeight="80dp"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corner2"
+        android:elevation="5dp"
+        android:maxHeight="90dp"
+        android:hint="Write a message..."
+        android:textColor="#000"
+        android:textColorHint="#000" />
 
     <ImageView
+        android:id="@+id/sendButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="4"
-        android:padding="4dp"
-        android:src="@android:drawable/ic_menu_send"
-        android:id="@+id/sendButton"/>
+        android:padding="5dp"
+        android:src="@android:drawable/ic_menu_send" />
 </LinearLayout>

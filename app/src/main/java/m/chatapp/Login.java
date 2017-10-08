@@ -33,6 +33,8 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
 
+
+
         register = (TextView)findViewById(R.id.register);
         username = (EditText)findViewById(R.id.username);
         password = (EditText)findViewById(R.id.password);
