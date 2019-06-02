@@ -1,9 +1,13 @@
 package m.chatapp;
 
 import android.content.Intent;
+import android.os.PersistableBundle;
 import android.provider.SyncStateContract;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Window;
+import android.view.WindowManager;
 
 
 import com.daimajia.androidanimations.library.Techniques;
@@ -13,7 +17,13 @@ import com.viksaa.sssplash.lib.model.ConfigSplash;
 
 public class Splash extends AwesomeSplash  {
 
-
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
+        super.onCreate(savedInstanceState, persistentState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+    }
 
     @Override
     public void initSplash(ConfigSplash configSplash) {
